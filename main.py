@@ -3,6 +3,7 @@ from EtoEmlProject.pipeline.stage_01_data_ingestion import DataIngestionTraining
 from EtoEmlProject.pipeline.stage_02_data_validation import  DataValidationTrainingPipeline
 from EtoEmlProject.pipeline.stage_03_data_transformation import DataTransformationPipeline
 from EtoEmlProject.pipeline.stage_04_model_trainer import ModelTrainerPipeline
+from EtoEmlProject.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 STAGE_NAME = 'Data Ingestion Stage'
 try:
@@ -45,3 +46,12 @@ except Exception as e:
     logger.exception(e)
     raise e 
 
+STAGE_NAME = 'Model Evaluation stage'
+try:
+    logger.info(f'>>>>>>> Stage {STAGE_NAME} started <<<<<<<<')
+    model_evaluation = ModelEvaluationTrainingPipeline()
+    model_evaluation.main()
+    logger.info(f'>>>>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nX===============')
+except Exception as e:
+    logger.exception(e)
+    raise e 

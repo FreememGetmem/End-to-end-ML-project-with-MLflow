@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS%20chicken%20desease2/End-to-end-ML-project-with-MLflow/mlruns/0/28a72a810291481e8789b5276368ecd8/artifacts
+end_time: 1700777653910
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28a72a810291481e8789b5276368ecd8
+run_name: brawny-rook-82
+run_uuid: 28a72a810291481e8789b5276368ecd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1700777651354
+status: 3
+tags: []
+user_id: mornd

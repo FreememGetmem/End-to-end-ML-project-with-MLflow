@@ -13,3 +13,22 @@ End to end ML project with MLflow
 7. Update the pipeline
 8. Update the main.py
 9. Update the app.py
+
+
+
+## DagsHub
+
+MLFLOW_TRACKING_URI=https://dagshub.com/FreememGetmem/End-to-end-ML-project-with-MLflow.mlflow \
+MLFLOW_TRACKING_USERNAME=FreememGetmem \
+MLFLOW_TRACKING_PASSWORD=e4e88593793c378a7dfabf1980078250844c8dd3 \
+python script.py
+
+## Run this to  export as env variables:
+
+'''bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/FreememGetmem/End-to-end-ML-project-with-MLflow.mlflow
+export MLFLOW_TRACKING_USERNAME=FreememGetmem
+export MLFLOW_TRACKING_PASSWORD=e4e88593793c378a7dfabf1980078250844c8dd3
+
+'''
