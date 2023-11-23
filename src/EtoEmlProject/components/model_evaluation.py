@@ -10,6 +10,10 @@ import numpy as np
 import joblib
 from EtoEmlProject.entity.config_entity import ModelEvaluationConfig
 
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/FreememGetmem/End-to-end-ML-project-with-MLflow.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="FreememGetmem"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="e4e88593793c378a7dfabf1980078250844c8dd3"
+
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
